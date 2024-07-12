@@ -9,7 +9,7 @@
   <% if(blogs.length) { %>
     <% blogs.forEach(blog=> {%>
       <a href="/blogs/<%= blog._id %>">
-      <div class="card d-lg-inline-flex m-2 p-1" style="max-width: 300px;">
+      <div  class="card d-lg-inline-flex m-2 p-1" style="max-width: 300px;">
         <div class="card-body">
           <h5 class="card-title"><%= blog.title %></h5>
           <h6 class="card-subtitle mb-2 text-muted"><%= blog.snippet %></h6>
