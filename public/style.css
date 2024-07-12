@@ -14,3 +14,10 @@ background-color: none !important;
     background-color: #fff !important;
     
       }
+      .cont{
+        max-width: 800px !important;
+        border: solid 1px #ddd !important;
+        border-radius: 10px !important;
+      padding: 10px !important;
+      margin-top: 30px;
+      }
