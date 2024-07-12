@@ -1,0 +1,8 @@
+for atlas
+user : wisamfoody
+pass : nRnUKA0iKZB0aV7x
+
+user:raneen
+pass : Miguel12_wisam
+connection :
+mongodb+srv://wisamfoody:nRnUKA0iKZB0aV7x@cluster0.gsoumzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
