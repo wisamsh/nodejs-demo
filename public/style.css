@@ -21,3 +21,13 @@ background-color: none !important;
       padding: 10px !important;
       margin-top: 30px;
       }
+
+      #masonry-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 16px;
+      }
+    
+      .card {
+        break-inside: avoid;
+      }
