@@ -6,3 +6,11 @@ body{
     font-style: normal;
   background-color: rgb(192, 205, 205) !important;
   }
+a{
+background-color: none !important;
+
+  }
+  a:hover{
+    background-color: #fff !important;
+    
+      }
