@@ -30,4 +30,42 @@ background-color: none !important;
     
       .card {
         break-inside: avoid;
+       
+      }
+      .delete{
+        cursor: pointer;
+        background-color: rgb(219, 92, 92);
+        color: #ddd;
+       
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        transition: all 0.5s;
+      
+    
+      }
+      .delete:hover{
+        background-color: rgb(242, 228, 228);
+        color: #100f0f;
+      }
+      .card-title{
+        border-bottom: solid 1px #ddd;
+      }
+
+      .toarticle{
+       
+        cursor: pointer;
+        background-color: rgb(156, 115, 237);
+        color: #ddd;
+        width: calc(100% - 10px);
+        /* height: 30px; */
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        transition: all 0.5s;
+        overflow: hidden;
+        text-align: center;
+      }
+      .card-body{
+       
       }
